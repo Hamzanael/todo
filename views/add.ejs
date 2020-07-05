@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+<div class="form-group">
+  <form action="/add" method="post">
+      <label for="TIT">Tilte</label>
+    <input type="text" name="title" class="form-control id="TIT>
+
+    <label for="Cont">Enter your content</label>
+   <textarea class="form-control" name="content" id="Cont" rows="3"></textarea>
+    <button type="submit" name="button" class="btn btn-secondary  btn-lg btn-block">Add</button>
+  </form>
+
+</div>
+<%- include('partials/footer'); -%>

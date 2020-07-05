@@ -1,0 +1,56 @@
+.navbar{
+  padding: 1rem 5rem;
+}
+.nav-item{
+  padding:0 5rem;
+  font-family: 'Handlee', cursive;
+  font-size: 1.5rem;
+}
+.Dairy {
+  padding:1rem 10rem;
+  text-align: left;
+
+}
+.Dairy h1{
+  color: #222831;
+  font-size:4rem;
+  font-family: 'Handlee', cursive;
+}
+.Dairy p{
+padding-bottom: 2rem;
+}
+.in-Diary{
+
+  font-family:  'Pangolin', cursive;
+}
+footer{
+  text-align: center;
+  background-color: #393e46;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #a6dcef;
+}
+.navbar-brand{
+
+}
+.form-group{
+  padding: 2rem;
+}
+label{
+  font-family: 'Lobster', cursive;
+  color: #204051;
+  font-size: 2.5rem;
+}
+@media only screen and (max-width: 900px) {
+  .Dairy {
+    padding:1rem ;
+    text-align: left;
+
+  }
+  .Dairy h1{
+    font-size:3rem;
+  }
+
+}

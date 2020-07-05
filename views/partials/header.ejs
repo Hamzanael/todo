@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/stayls.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+     <a class="navbar-brand nav-item" >Diary Blog</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="add">Add Diary</a>
+      </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ABOUT"
+            role="button" > About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact" data-toggle="modal" data-target="#exampleModal" role="button">Contact Us</a>
+          </li>
+
+        </ul>
+      </div>
+
+  </nav>
+  <div class="collapse" id="ABOUT">
+  <div class="card card-body cnt">
+    this web site has been designed By Hamza
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="mailto:hnael99@gamil.com" method="post">
+       <p>Email: Hneal99@gmail.com</p>
+       <p>Phone number:+962790558636</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a type="button" class="btn btn-primary" href="mailto:hnael99@gmail.com?subject=Mail want to know more about your sites" >Send email</a>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>

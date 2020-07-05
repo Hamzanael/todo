@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+
+ <div class="Dairy">
+   <% posts.forEach(function(post){%>
+
+
+   <div class="in-Diary">
+     <h1><%=post.title%></h1>
+       <p><%=post.subcont%> .... <span><a href="/post/<%=post.title%>" >Read more </a> </span> </p>
+    </div>
+     <% }); %>
+    </div>
+
+<%- include('partials/footer'); -%>

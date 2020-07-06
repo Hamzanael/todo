@@ -43,7 +43,7 @@ label{
   color: #204051;
   font-size: 2.5rem;
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1000px) {
   .Dairy {
     padding:1rem ;
     text-align: left;
@@ -54,11 +54,19 @@ label{
   }
   .in-Diary h1{
     font-size:6rem;
+    width: 100%;
   }
 .navbar-brand{
   padding: 2rem;
+  font-size: 5rem;
 }
 .row{
   width: 100%;
+}
+.navbar-toggler{
+  width: 10rem;
+}
+.nav-link{
+  font-size: 5rem;
 }
 }

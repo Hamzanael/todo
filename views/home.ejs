@@ -1,14 +1,13 @@
 <%- include('partials/header'); -%>
 
- <div class="Dairy container">
-   <div class="row">
+ <div class="Dairy">
+
    <% posts.forEach(function(post){%>
 
-   <div class="in-Diary col-lg-12">
-     <h1><%=post.title%></h1>
-       <p><%=post.subcont%> .... <span><a href="/post/<%=post.title%>" >Read more </a>  </span> </p>
+   <div class="in-Diary px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+     <h1 class="display-4"><%=post.title%></h1>
+       <p class="lead"><%=post.subcont%> .... <span><a href="/post/<%=post.title%>" >Read more </a>  </span> </p>
     </div>
      <% }); %>
     </div>
-</div>
 <%- include('partials/footer'); -%>

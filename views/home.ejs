@@ -1,14 +1,14 @@
 <%- include('partials/header'); -%>
 
- <div class="Dairy">
+ <div class="Dairy container">
+   <div class="row">
    <% posts.forEach(function(post){%>
 
-
-   <div class="in-Diary">
+   <div class="in-Diary col-lg-12">
      <h1><%=post.title%></h1>
-       <p><%=post.subcont%> .... <span><a href="/post/<%=post.title%>" >Read more </a> </span> </p>
+       <p><%=post.subcont%> .... <span><a href="/post/<%=post.title%>" >Read more </a>  </span> </p>
     </div>
      <% }); %>
     </div>
-
+</div>
 <%- include('partials/footer'); -%>
